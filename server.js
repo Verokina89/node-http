@@ -14,7 +14,7 @@ const server = http.createServer((req, res) => {
     <body>
         <main>
             <h1>${objectData.title}</h1>
-            <h2>${objectData.subtile}</h2>
+            <h2>${objectData.subtitle}</h2>
             <p>${objectData.description}</p>
         </main>
         <footer>
